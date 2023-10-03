@@ -17,12 +17,12 @@ Installation
 
 Ensure you have Python installed on your system. You can install the required libraries using pip:
 
-pip install pandas scikit-learn
+      pip install pandas scikit-learn
 Usage
 
 Clone the repository:
-git clone https://github.com/yourusername/instagram-analysis.git
-cd instagram-analysis
+      git clone https://github.com/sssssss/instagram-analysis.git
+      cd instagram-analysis
 Prepare your Instagram data (see Data Preparation).
 Train the model (see Training the Model).
 Make predictions (see Prediction).
@@ -41,7 +41,7 @@ likes,comments,followers,impressions
 Training the Model
 
 Run the train_model.py script to train the RandomForestRegressor model:
-python train_model.py
+      python train_model.py
 This script will load the data, preprocess it, train the model, and save the trained model for future predictions.
 
 ### Prediction
