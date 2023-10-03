@@ -22,7 +22,7 @@ Ensure you have Python installed on your system. You can install the required li
 
 Clone the repository:
 
-      git clone [https://github.com/sggsfhydhughjhf/Instagram_Analysis.git]
+      git clone https://github.com/sggsfhydhughjhf/Instagram_Analysis.git
       cd instagram_Analysis
 
       
