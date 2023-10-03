@@ -32,13 +32,6 @@ Make predictions (see Prediction).
 ### Data Preparation
 
 Prepare your Instagram data in a CSV format with columns like 'likes,' 'comments,' 'followers,' etc. Ensure the data is cleaned and preprocessed before use.
-
-Example CSV format:
-      [likes,comments,followers,impressions
-      100,10,1000,1500
-      200,15,1200,1800
-      ...
-      Training the Model]
 Run the train_model.py script to train the RandomForestRegressor model:
       python train_model.py
 This script will load the data, preprocess it, train the model, and save the trained model for future predictions.
