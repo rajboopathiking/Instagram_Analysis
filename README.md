@@ -21,8 +21,11 @@ Ensure you have Python installed on your system. You can install the required li
 Usage
 
 Clone the repository:
+
       git clone [https://github.com/sssssss/instagram-analysis.git](https://github.com/sggsfhydhughjhf/Instagram_Analysis.git]
       cd instagram_Analysis
+
+      
 Prepare your Instagram data (see Data Preparation).
 Train the model (see Training the Model).
 Make predictions (see Prediction).
@@ -31,12 +34,11 @@ Make predictions (see Prediction).
 Prepare your Instagram data in a CSV format with columns like 'likes,' 'comments,' 'followers,' etc. Ensure the data is cleaned and preprocessed before use.
 
 Example CSV format:
-likes,comments,followers,impressions
+      likes,comments,followers,impressions
       100,10,1000,1500
       200,15,1200,1800
       ...
       Training the Model
-
 Run the train_model.py script to train the RandomForestRegressor model:
       python train_model.py
 This script will load the data, preprocess it, train the model, and save the trained model for future predictions.
